@@ -42,7 +42,7 @@ export default function UserRoutes(app) {
     if (!currentUser) {
       res.sendStatus(401);
       return;
-    }
+    } 
     res.json(currentUser);
   };
   const signout = (req, res) => {
