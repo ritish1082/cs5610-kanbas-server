@@ -1,4 +1,3 @@
-/* eslint-disable import/no-anonymous-default-export */
 export default [
   {
     _id: "M101",
@@ -83,35 +82,155 @@ export default [
     name: "Fundamentals of Aerodynamics",
     description: "Basic aerodynamic concepts and fluid dynamics principles.",
     course: "RS102",
+    lessons: [
+      {
+        _id: "L111",
+        name: "What is Aerodynamics?",
+        description: "A brief history of rocketry and space exploration.",
+        module: "M201",
+      },
+      {
+        _id: "L112",
+        name: "Aerodynamics Fundamentals",
+        description: "Basic principles of rocket propulsion.",
+        module: "M201",
+      },
+      {
+        _id: "L113",
+        name: "Calculations and Proofs",
+        description: "Overview of different types of rocket engines.",
+        module: "M201",
+      },
+    ],
   },
   {
     _id: "M202",
     name: "Subsonic and Supersonic Flow",
     description: "Understanding subsonic and supersonic aerodynamic behaviors.",
     course: "RS102",
+    lessons: [
+      {
+        _id: "L211",
+        name: "History of Supersonic Flow",
+        description: "A brief history of rocketry and space exploration.",
+        module: "M202",
+      },
+      {
+        _id: "L212",
+        name: "Subsonic and Supersonic Flow Fundamentals",
+        description: "Basic principles of rocket propulsion.",
+        module: "M202",
+      },
+      {
+        _id: "L313",
+        name: "Subsonic and Supersonic Flow Types",
+        description: "Overview of different types of rocket engines.",
+        module: "M202",
+      },
+    ],
   },
   {
     _id: "M203",
     name: "Aerodynamic Heating",
     description: "Study of aerodynamic heating and thermal protection systems.",
     course: "RS102",
+    lessons: [
+      {
+        _id: "L311",
+        name: "History of Aerodynamic Heating",
+        description: "A brief history of rocketry and space exploration.",
+        module: "M203",
+      },
+      {
+        _id: "L212",
+        name: "Aerodynamic Heating Fundamentals",
+        description: "Basic principles of rocket propulsion.",
+        module: "M203",
+      },
+      {
+        _id: "L313",
+        name: "Aerodynamic Heating Types",
+        description: "Overview of different types of rocket engines.",
+        module: "M203",
+      },
+    ],
   },
   {
     _id: "M301",
     name: "Spacecraft Structural Design",
     description: "Fundamentals of designing spacecraft structures and materials selection.",
     course: "RS103",
+    lessons: [
+      {
+        _id: "L121",
+        name: "History of Spacecraft Structural Design",
+        description: "A brief history of rocketry and space exploration.",
+        module: "M203",
+      },
+      {
+        _id: "L122",
+        name: "Spacecraft Structural Design Fundamentals",
+        description: "Basic principles of rocket propulsion.",
+        module: "M203",
+      },
+      {
+        _id: "L123",
+        name: "Spacecraft Structural Design Types",
+        description: "Overview of different types of rocket engines.",
+        module: "M203",
+      },
+    ],
   },
   {
     _id: "M302",
     name: "Orbital Mechanics",
     description: "Understanding orbital dynamics and mission planning.",
     course: "RS103",
+    lessons: [
+      {
+        _id: "L221",
+        name: "History of Orbital Mechanics",
+        description: "A brief history of rocketry and space exploration.",
+        module: "M203",
+      },
+      {
+        _id: "L222",
+        name: "Orbital Mechanics Fundamentals",
+        description: "Basic principles of rocket propulsion.",
+        module: "M203",
+      },
+      {
+        _id: "L223",
+        name: "Orbital Mechanics Types",
+        description: "Overview of different types of rocket engines.",
+        module: "M203",
+      },
+    ],
   },
   {
     _id: "M303",
     name: "Spacecraft Systems Engineering",
     description: "Overview of spacecraft systems and subsystems engineering.",
     course: "RS103",
+    lessons: [
+      {
+        _id: "L321",
+        name: "History of Spacecraft Systems Engineering",
+        description: "A brief history of rocketry and space exploration.",
+        module: "M303",
+      },
+      {
+        _id: "L322",
+        name: "Spacecraft Systems Engineering Fundamentals",
+        description: "Basic principles of rocket propulsion.",
+        module: "M303",
+      },
+      {
+        _id: "L323",
+        name: "Spacecraft Systems Engineering Types",
+        description: "Overview of different types of rocket engines.",
+        module: "M303",
+      },
+    ],
   },
 ];

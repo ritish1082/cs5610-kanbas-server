@@ -1,4 +1,5 @@
 import * as dao from "./dao.js";
+import Database from "../Database/index.js";
 export default function EnrollmentRoutes(app) {
   app.get("/api/enrollments", (req, res) => {
     const enrollments = dao.getAllEnrollments();

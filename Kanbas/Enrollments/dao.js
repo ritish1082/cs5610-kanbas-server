@@ -9,11 +9,10 @@ export function getAllEnrollments() {
 export function createEnrollment(enrollment) {
   const newEnrollment = { ...enrollment, _id: Date.now().toString() };
   Database.enrollments = [...Database.enrollments, newEnrollment];
-  console.log(newEnrollment);
+  // console.log(Database.enrollments);
   return newEnrollment;
 }
 export function removeEnrollment(enrollmentId) {
   const { enrollments } = Database;
-  console.log(enrollments);
   Database.enrollments = enrollments.filter((e) => e._id !== enrollmentId);
 }
